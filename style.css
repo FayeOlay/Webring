@@ -1,0 +1,63 @@
+body {
+  position: absolute;
+  background-color: #d63b3b;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.triangle {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 0 1500px 1500px;
+  border-color: transparent transparent #3B4AD6 transparent;
+  background: #d63b3b;
+  margin: auto;
+}
+
+.nav li a {
+  position:relative;
+  display: block;
+  color: black;
+  text-decoration: none;
+  font-size: 150px;
+  font-family: "Raleway", sans-serif;
+  /*   background-color: blue; */
+  margin-bottom: 35px;
+  z-index: 50;
+}
+
+.nav li a:hover {
+  color: white;
+}
+
+.name{
+  position:absolute;
+  text-align: right;
+  font-family: variex, sans-serif;
+font-weight: 700;
+font-style: normal;
+  margin-top: 25%;
+  font-size: 250px;
+}
+
+
+/* .triangle-element {
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+    position: relative;
+    margin: 10px;
+  z-index: 50;
+}
+.triangle-element:after {
+    content: '';
+    background: green;
+    width: 142%;
+    height: 142%;
+    position: absolute;
+    transform: rotate(45deg) translate(-71%,0);
+} */
