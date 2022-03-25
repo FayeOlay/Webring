@@ -1,12 +1,12 @@
 /* HOMEPAGE */
 
-  .homepage {
-    position: fixed;
-    background: url("https://cdn.glitch.global/2f9f801a-2166-4142-bd72-243bc223b6ff/Group%201.svg?v=1645153447859");
-    background-size: 100% 100vh;
-    padding: 0;
-    margin: 0;
-  }
+.homepage {
+  position: fixed;
+  background: url("https://cdn.glitch.global/2f9f801a-2166-4142-bd72-243bc223b6ff/Group%201.svg?v=1645153447859");
+  background-size: 100% 100vh;
+  padding: 0;
+  margin: 0;
+}
 
 a {
   text-decoration: none !important;
@@ -217,31 +217,38 @@ div#title4 {
     position: fixed;
     background: url("https://cdn.glitch.global/2f9f801a-2166-4142-bd72-243bc223b6ff/Group%203.svg?v=1648045305020");
     background-size: cover;
-    Background-repeat: no-repeat;
+    background-repeat: no-repeat;
     padding: 0;
     margin: 0;
   }
-  
+
   .nav li a {
     font-size: 80px;
   }
-  
+
   #name {
     margin-top: 36%;
-    margin-right: .5%;
-    font-size:  20.29769959404601vw;
+    margin-right: 0.5%;
+    font-size: 20.29769959404601vw;
     text-anchor: right;
   }
-  
+
   div#title {
     font-size: 100px;
   }
-  
+
   .name3 {
     margin-top: 3%;
   }
   
+   .students li {
+  font-size: 40px;
+}
   
+  .project1 li {
+  font-size: 85px;
+}
+
 }
 
 @media only screen and (max-width: 600px) {
@@ -249,16 +256,16 @@ div#title4 {
     position: fixed;
     background: url("https://cdn.glitch.global/2f9f801a-2166-4142-bd72-243bc223b6ff/Group%202%20(1).svg?v=1648044269371");
     background-size: cover;
-    Background-repeat: no-repeat;
+    background-repeat: no-repeat;
     padding: 0;
     margin: 0;
   }
-  
+
   .nav li a {
     text-align: center;
     font-size: 80px;
   }
-  
+
   #name {
     font-size: 110px;
     margin-top: 40%;
@@ -266,34 +273,41 @@ div#title4 {
     text-align: center;
     padding: 20px;
   }
-  
-    div#title {
+
+  div#title {
     font-size: 90px;
   }
-  
+
   div#title2 {
     font-size: 90px;
   }
-  
+
   div#title3 {
     font-size: 90px;
   }
-  
-    div#title4 {
+
+  div#title4 {
     font-size: 90px;
   }
-  
+
   .name2 {
     font-size: 80px;
   }
-  
-    .name3 {
+
+  .name3 {
+    font-size: 110px;
+  }
+
+  .name4 {
     font-size: 110px;
   }
   
-      .name4 {
-    font-size: 110px;
-  }
+ .students li {
+  font-size: 40px;
+}
   
-  
+    .project1 li {
+  font-size: 85px;
+}
+
 }
