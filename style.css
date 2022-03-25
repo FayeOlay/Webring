@@ -1,93 +1,299 @@
-body {
-  position: fixed;
-  background: url("https://cdn.glitch.global/2f9f801a-2166-4142-bd72-243bc223b6ff/Group%201.svg?v=1645153447859");
-  background-size: 100% 100vh;
+/* HOMEPAGE */
+
+  .homepage {
+    position: fixed;
+    background: url("https://cdn.glitch.global/2f9f801a-2166-4142-bd72-243bc223b6ff/Group%201.svg?v=1645153447859");
+    background-size: 100% 100vh;
+    padding: 0;
+    margin: 0;
+  }
+
+a {
+  text-decoration: none !important;
+  color: black;
+}
+
+.navlist:hover {
+  color: white;
+  cursor: pointer;
 }
 
 ul {
   list-style-type: none;
 }
 
-.nav li {
+.nav li a {
   position: relative;
   display: block;
   color: black;
   text-decoration: none;
-  font-size: 15.030060120240481vh;
+  font-size: 10.080903494969478vw;
   font-family: "Raleway", sans-serif;
   /*background-color: blue; */
   margin-bottom: 35px;
-  z-index: 50;
+  z-index: 70;
   cursor: pointer;
 }
 
-
-.students li {
-  text-decoration: none;
+#name {
   position: relative;
-  display: block;
   text-align: right;
   font-family: variex, sans-serif;
   font-weight: 700;
   font-style: normal;
-  margin-bottom: 20%;
-  margin-left: 100%;
-  font-size: 7vh;
-  background-color: red;
-  display: none;
+  font-size: 15.583126845761212vw;
+  z-index: 60;
+  text-anchor: right;
+  margin-top: -36%;
+  margin-right: -50%;
+}
+
+/* CLASSMATES */
+
+.cb {
+  background-color: #3b4ad6;
+}
+
+.name2 {
+  position: relative;
+  display: block;
+  float: right;
+  text-align: right;
+  font-family: variex, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-anchor: right, bottom;
+  font-size: 13.7524557956778vh;
+  margin-right: 5%;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+div#title {
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-size: 8.803578379781145vw;
+  font-weight: 400;
+  /*background-color: blue; */
+  margin-top: 1%;
+  z-index: 50;
+  cursor: pointer;
+  margin-left: 2%;
+}
+
+.students ul {
+  width: 210px;
+}
+.students li {
+  float: left;
+  height: 100px;
+  margin: 0 10px 10px 0;
+  width: 180px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  margin-top: 5%;
+  margin-left: 5%;
+  font-size: 50px;
+}
+.students li:nth-child(even) {
+  margin-right: 2;
+}
+
+/* STUDIO */
+
+.sb {
+  background-color: #3b4ad6;
+}
+
+div#title2 {
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-size: 15.030060120240481vh;
+  font-weight: 400;
+  /*background-color: blue; */
+  margin-top: 1%;
+  z-index: 50;
+  cursor: pointer;
+  margin-left: 2%;
 }
 
 .project1 li {
   position: relative;
-  display: block;
+  display: flex;
   text-align: right;
-  font-family: variex, sans-serif;
-  font-weight: 700;
+  font-family: "Raleway", sans-serif;
+  /*   font-weight: 700; */
   font-style: normal;
-  font-size: 7vh;
-  margin-left: 30px;
-  display: none;
+  font-size: 9.047619047619047vh;
+  margin-left: 5%;
+  margin-top: 3%;
+  padding-bottom: 10px;
 }
 
-.project2 li {
+.name3 {
   position: relative;
   display: block;
+  float: right;
   text-align: right;
   font-family: variex, sans-serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 7vh;
-  margin-left: 30px;
-  display: none;
+  text-anchor: right, bottom;
+  font-size: 13.7524557956778vh;
+  margin-top: -10%;
+  margin-right: 5%;
+  cursor: pointer;
+  text-decoration: none;
 }
 
-#bio {
-    position: relative;
-  display: block;
-  text-align: right;
-  font-family: variex, sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 7vh;
-  margin-left: 100px;
-  display: none;
+/* ABOUT*/
+
+.ab {
+  background-color: #d63b3b;
 }
 
-.nav li:hover {
+div#title3 {
   color: white;
+  font-family: "Raleway", sans-serif;
+  font-size: 15.030060120240481vh;
+  font-weight: 400;
+  /*background-color: blue; */
+  margin-top: 1%;
+  z-index: 50;
+  cursor: pointer;
+  margin-left: 2%;
 }
 
-#name {
-  position: absolute;
+div#bio {
+  position: relative;
+  display: flex;
+  text-align: left;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 5vh;
+  margin-left: 5%;
+  margin-top: 5%;
+  width: 65%;
+}
+
+.name4 {
+  position: relative;
+  display: block;
+  float: right;
   text-align: right;
   font-family: variex, sans-serif;
   font-weight: 700;
   font-style: normal;
-  margin-top: 60%;
-  margin-left: 65%;
-  font-size: 24.154589371980677vh;
-  z-index: 60;
-  top: 0vh;
-  left: 0vw;
+  text-anchor: right, bottom;
+  font-size: 13.7524557956778vh;
+  margin-right: 5%;
+  margin-top: -2%;
+  cursor: pointer;
+  text-decoration: none;
 }
 
+/* LAB */
+
+.lb {
+  background-color: #d63b3b;
+}
+div#title4 {
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-size: 15.030060120240481vh;
+  font-weight: 400;
+  /*background-color: blue; */
+  margin-top: 1%;
+  z-index: 50;
+  cursor: pointer;
+  margin-left: 2%;
+}
+
+/* BREAKING POINTS */
+
+@media only screen and (max-width: 768px) {
+  .homepage {
+    position: fixed;
+    background: url("https://cdn.glitch.global/2f9f801a-2166-4142-bd72-243bc223b6ff/Group%203.svg?v=1648045305020");
+    background-size: cover;
+    Background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav li a {
+    font-size: 80px;
+  }
+  
+  #name {
+    margin-top: 36%;
+    margin-right: .5%;
+    font-size:  20.29769959404601vw;
+    text-anchor: right;
+  }
+  
+  div#title {
+    font-size: 100px;
+  }
+  
+  .name3 {
+    margin-top: 3%;
+  }
+  
+  
+}
+
+@media only screen and (max-width: 600px) {
+  .homepage {
+    position: fixed;
+    background: url("https://cdn.glitch.global/2f9f801a-2166-4142-bd72-243bc223b6ff/Group%202%20(1).svg?v=1648044269371");
+    background-size: cover;
+    Background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav li a {
+    text-align: center;
+    font-size: 80px;
+  }
+  
+  #name {
+    font-size: 110px;
+    margin-top: 40%;
+    margin-right: 15%;
+    text-align: center;
+    padding: 20px;
+  }
+  
+    div#title {
+    font-size: 90px;
+  }
+  
+  div#title2 {
+    font-size: 90px;
+  }
+  
+  div#title3 {
+    font-size: 90px;
+  }
+  
+    div#title4 {
+    font-size: 90px;
+  }
+  
+  .name2 {
+    font-size: 80px;
+  }
+  
+    .name3 {
+    font-size: 110px;
+  }
+  
+      .name4 {
+    font-size: 110px;
+  }
+  
+  
+}
