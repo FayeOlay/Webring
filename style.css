@@ -240,6 +240,14 @@ div#title4 {
   .name3 {
     margin-top: 3%;
   }
+  
+   .students li {
+  font-size: 40px;
+}
+  
+  .project1 li {
+  font-size: 85px;
+}
 
 }
 
@@ -296,6 +304,10 @@ div#title4 {
   
  .students li {
   font-size: 40px;
+}
+  
+    .project1 li {
+  font-size: 85px;
 }
 
 }
